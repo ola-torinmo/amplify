@@ -5,8 +5,8 @@ import check from '../assets/check.png'
 
 const WhatYouGet = () => {
   return (
-    <div className="px-4 md:px-8 my-6">
-    <section className=" text-[#636363CC] py-12 px-4 h-full sm:py-16">
+    <div className="px-4 md:px-8 ">
+    <section className=" text-[#636363CC]  px-4 h-full ">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center mt-6">
           <div className="order-last md:order-first">
@@ -23,7 +23,7 @@ const WhatYouGet = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-[38px] text-[#101010] sm:text-[32px] font-bold mb-6 text-center md:text-left">What you’ll get</h1>
+            <h1 className="text-[38px] text-[#101010] sm:text-[32px] font-bold mb-4 text-center md:text-left">What you’ll get</h1>
             <p className='text-[20px] mb-6 text-center md:text-left'>Below are the few values you’d get from joining the program</p>
             <ul className="space-y-4">
               <li className="flex items-start">

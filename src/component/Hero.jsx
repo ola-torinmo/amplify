@@ -11,7 +11,7 @@ const Hero = () => {
           className='w-[300px] h-[60px] mx-auto mt-[40px]'
           alt='logo'
         />
-        <div className='flex flex-col items-center justify-center py-[75px] px-10 border border-[#DADEE3] rounded-[25px] mt-[40px] md:mx-[80px] mx-[20px] mb-12 '>
+        <div className='flex flex-col items-center justify-center py-[75px] px-10 border border-[#DADEE3] rounded-[25px] mt-[40px] md:mx-[80px] mx-[20px] mb-16 '>
             <div className=' text-center mb-[16px] md:w-[790px] w-[300px]'>
                 <h1 className=' md:text-[48px] text-[34px] font-semibold'>Where women Rise, Write, and Roar</h1>
                 <p className='text-[16px] text-[#636363CC] '>You have done the work, you’ve earned the degrees, you’ve built the experience, but still the world doesn’t see you.</p>

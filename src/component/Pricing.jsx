@@ -5,10 +5,10 @@ import check from '../assets/check.png'
 const Pricing = () => {
   return (
     // {/* Pricing Section */}
-    <section className="py-6 px-4 sm:py-16" id="pricing">
+    <section className=" px-4" id="pricing">
     <div className=' items-center justify-center py-[75px] px-10 border border-[#DADEE3] rounded-[25px] mt-[40px] md:mx-[80px] mx-[20px] '> 
     <div className="max-w-5xl mx-auto text-center mb-12 sm:mb-16">
-      <h1 className="text-[32px] md:text-[38px] font-semibold mb-2">Choose your path with Brenda</h1>
+      <h1 className="text-[32px] md:text-[38px] font-semibold mb-4">Choose your path with Brenda</h1>
       <p className="text-[#636363CC] opacity-80">
        Free and transparent pricing, get started today!
       </p>

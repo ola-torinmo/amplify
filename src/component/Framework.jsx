@@ -31,8 +31,8 @@ const Framework = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6" id="how-it-works">
-  <h1 className="text-[44px] font-medium text-center mb-12">The AmplifyYOU framework</h1>
+    <div className="max-w-6xl mx-auto px-4 " id="how-it-works">
+  <h1 className="text-[44px] font-medium text-center mb-4">The AmplifyYOU framework</h1>
   <p className="text-center text-gray-600 mb-12 w-[350px] md:w-full mx-auto">
     Walk through our signature 5-step framework to write with purpose and show up like the powerhouse you are:
   </p>

@@ -33,12 +33,12 @@ const testimonials = () => {
             
             <div className='flex flex-col items-center justify-center py-[75px] px-10 border border-[#DADEE3] rounded-[25px] mt-[40px] md:mx-[80px] mx-[20px] mb-12 '>
                 <div className=' text-center mb-[16px] md:w-[790px] w-[300px]'>
-                    <h1 className=' md:text-[38px] text-[34px] font-semibold'>What women are saying</h1>
+                    <h1 className=' md:text-[38px] text-[34px] mb-4 font-semibold'>What women are saying</h1>
                     <p className='text-[16px] text-[#636363CC] '>Whether you start with the book, join the program, or sign up for 1-on-1 coaching, this is your time to amplify your voice and legacy. The world needs your story. Your voice is valid. Your time is now.</p>
                 </div>
                 
-              <div className="md:w-[950px] w-[310px] mx-auto p-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 -space-x-0.5">
+              <div className="md:w-[950px] w-[300px] p-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:-space-x-0.5">
                     {testimonials.map((testimonial, index) => (
                     <div key={index} className={`bg-white rounded-lg shadow-sm p-6 border border-gray-200 `}>
                         <StarRating />
