@@ -5,36 +5,36 @@ const Framework = () => {
     {
       number: 1,
       title: "Clarify",
-      description: "Uncover your unique message, mission, and audience."
+      description: "Uncover the message that's been buried under fear, imposter syndrome, or perfectionism. Identify your core message and ideal audience."
     },
     {
       number: 2,
       title: "Create",
-      description: "Develop your book, signature content, or thought leadership platform."
+      description: "Turn your story, lessons, or expertise into a legacy product-book, keynote, podcast, or online course. From rough ideas to refined content outline."
     },
     {
       number: 3,
       title: "Brand",
-      description: "Package your voice and visuals into a compelling personal brand."
+      description: "Build a strong personal brand that reflects your voice, values, and vision. You'll stand out with credibility and confidence."
     },
     {
       number: 4,
       title: "Publish",
-      description: "Learn how to publish your book or message product — properly and professionally."
+      description: "You'll get tools, guidance, and templates to self-publish or partner with trusted publishing platforms. We'll help you bring your project to life professionally."
     },
     {
       number: 5,
       title: "Amplify",
-      description: "Build your platform, land speaking gigs, and grow your digital presence."
+      description: "Learn how to launch, promote, and scale your voice through platforms, media, and strategic visibility. Your voice will echo far beyond your inner circle."
     },
     
   ];
 
   return (
     <div className="max-w-6xl mx-auto px-4 " id="how-it-works">
-  <h1 className="text-[44px] font-medium text-center mb-4">The AmplifyYOU framework</h1>
+  <h1 className="text-[44px] font-medium text-center mb-4">What you’ll learn</h1>
   <p className="text-center text-gray-600 mb-12 w-[350px] md:w-full mx-auto">
-    Walk through our signature 5-step framework to write with purpose and show up like the powerhouse you are:
+    Walk through our 5-step framework to write with purpose and show up like the powerhouse you are.
   </p>
   
   <div className="flex flex-col items-center space-y-8">

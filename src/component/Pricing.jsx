@@ -14,11 +14,55 @@ const Pricing = () => {
       </p>
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+       {/* AmplifyYOU Group Coaching */}
+      <div className="border border-[#E0E8E3] rounded-[22.5px] p-[14px]">
+        <div className="mb-4 border border-[#E0E8E3] rounded-[10.5px] p-[14px]">
+          <h3 className="font-medium">AmplifyYOU Group Coaching</h3>
+          <div className="mt-4 mb-[14px] ">
+            <span className="text-3xl font-bold">₦100,000</span>
+            
+             
+          </div>
+          <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Starts September 2025</span>
+          
+         <a href="https://selar.com/8g3657" target="_blank" rel="noopener noreferrer">
+           <button className="w-full py-2 border border-[#E8B4B8] text-[#E8B4B8] rounded-md  mt-[14px]">
+            Get Started
+          </button>
+         </a>
+        </div>
+        <div className="space-y-3 mt-6">
+            <div className='flex-shrink-0'>
+              <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Group coaching program includes:</span>
+
+            </div>
+
+          <div className="flex items-start">
+            
+          
+            <div className="h-5 w-5  mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Includes all course modules</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Unlimited slots</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Starts September 2025</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">One-time payment</span>
+          </div>
+        </div>
+      </div>
+
       {/* Starter Plan */}
       <div className="border border-[#E0E8E3] rounded-[22.5px] p-[14px]">
         <div className="mb-4 border border-[#E0E8E3] rounded-[10.5px] p-[14px]">
-          <h3 className="font-medium">Group Coaching Program</h3>
+          <h3 className="font-medium">AmplifyYOU Group Coaching</h3>
           <div className="mt-4 mb-[14px] ">
             <span className="text-3xl font-bold">₦250,000</span>
             
@@ -34,7 +78,7 @@ const Pricing = () => {
         </div>
         <div className="space-y-3 mt-6">
             <div className='flex-shrink-0'>
-              <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Group coaching program includes::</span>
+              <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Group coaching program includes:</span>
 
             </div>
 
@@ -42,11 +86,7 @@ const Pricing = () => {
             
           
             <div className="h-5 w-5  mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">12 weeks total (6 classes + 6 support)</span>
-          </div>
-          <div className="flex items-start">
-            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Unlimited slots</span>
+            <span className="text-sm mt-1">Includes all course modules</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
@@ -54,7 +94,11 @@ const Pricing = () => {
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Investment 250,000 naira</span>
+            <span className="text-sm mt-1">Group coaching calls</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Hot seats and weekly accountability</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
@@ -66,7 +110,7 @@ const Pricing = () => {
       {/* Growth Plan */}
       <div className="border border-[#E8B4B8] rounded-[22.5px] p-[14px] pb-[30px]  bg-white">
         <div className="mb-4 border border-white bg-[#E8B4B812] rounded-[10.5px] p-[14px]">
-          <h3 className="font-medium">1-on-1 Coaching</h3>
+          <h3 className="font-medium">AmplifyYOU 1-on-1 Coaching</h3>
           <div className="mt-4 mb-[14px]">
             <span className="text-3xl font-bold">₦750,000</span>
            
@@ -89,19 +133,19 @@ const Pricing = () => {
             </div>
           <div className="flex items-start">
             <div className="h-5 w-5 mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Personalized experience with Brenda</span>
+            <span className="text-sm mt-1">Includes all course modules</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Limited slots</span>
+            <span className="text-sm mt-1">Private sessions with Brenda</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Immediate start and deeper feedback</span>
+            <span className="text-sm mt-1">Personal strategy plan</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Investment 750,000 naira</span>
+            <span className="text-sm mt-1">Tailored project feedback</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
