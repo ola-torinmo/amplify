@@ -26,15 +26,15 @@ const Pricing = () => {
           </div>
           <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Starts September 2025</span>
           
-         <a href="https://selar.com/8g3657" target="_blank" rel="noopener noreferrer">
-           <button className="w-full py-2 border border-[#E8B4B8] text-[#E8B4B8] rounded-md  mt-[14px]">
+         <a href="https://selar.com/2g245247j2" target="_blank" rel="noopener noreferrer">
+           <button className="w-full py-2 border border-[#DF3841] text-[#DF3841] rounded-md  mt-[14px]">
             Get Started
           </button>
          </a>
         </div>
         <div className="space-y-3 mt-6">
             <div className='flex-shrink-0'>
-              <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Group coaching program includes:</span>
+              <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Online course includes:</span>
 
             </div>
 
@@ -42,24 +42,21 @@ const Pricing = () => {
             
           
             <div className="h-5 w-5  mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Includes all course modules</span>
+            <span className="text-sm mt-1">Full access to the AmplifyYOU framework: Clarify, Create, Brand, Publish, Amplify</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Unlimited slots</span>
+            <span className="text-sm mt-1">6 videos for each of the modules to be watched at your pace</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Starts September 2025</span>
+            <span className="text-sm mt-1">Tools and templates to get your book ready</span>
           </div>
-          <div className="flex items-start">
-            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">One-time payment</span>
-          </div>
+          
         </div>
       </div>
 
-      {/* Starter Plan */}
+      {/* AmplifyYOU Group Coaching */}
       <div className="border border-[#E0E8E3] rounded-[22.5px] p-[14px]">
         <div className="mb-4 border border-[#E0E8E3] rounded-[10.5px] p-[14px]">
           <h3 className="font-medium">AmplifyYOU Group Coaching</h3>
@@ -70,15 +67,15 @@ const Pricing = () => {
           </div>
           <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Starts September 2025</span>
           
-         <a href="https://selar.com/8g3657" target="_blank" rel="noopener noreferrer">
-           <button className="w-full py-2 border border-[#E8B4B8] text-[#E8B4B8] rounded-md  mt-[14px]">
+         <a href="https://selar.com/z923n9996r" target="_blank" rel="noopener noreferrer">
+           <button className="w-full py-2 border border-[#DF3841] text-[#DF3841] rounded-md  mt-[14px]">
             Get Started
           </button>
          </a>
         </div>
         <div className="space-y-3 mt-6">
             <div className='flex-shrink-0'>
-              <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Group coaching program includes:</span>
+              <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>Group coaching includes:</span>
 
             </div>
 
@@ -86,33 +83,45 @@ const Pricing = () => {
             
           
             <div className="h-5 w-5  mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Includes all course modules</span>
+            <span className="text-sm mt-1">Full access to the AmplifyYOU framework: Clarify, Create, Brand, Publish, Amplify</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Starts September 2025</span>
+            <span className="text-sm mt-1">6 weeks of live group coaching</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Group coaching calls</span>
+            <span className="text-sm mt-1">6 weeks of implementation + feedback</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Hot seats and weekly accountability</span>
+            <span className="text-sm mt-1">Tools and templates to get your book ready</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">One-time payment</span>
+            <span className="text-sm mt-1">Accountability</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Your book completed in 12 weeks</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">A community of like-minded authors to cheer you on</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Access to coach in a Whatsapp group for 12 weeks</span>
           </div>
         </div>
       </div>
 
       {/* Growth Plan */}
-      <div className="border border-[#E8B4B8] rounded-[22.5px] p-[14px] pb-[30px]  bg-white">
-        <div className="mb-4 border border-white bg-[#E8B4B812] rounded-[10.5px] p-[14px]">
+      <div className="border border-[#DF3841] rounded-[22.5px] p-[14px] pb-[30px]  bg-white">
+        <div className="mb-4 border border-white bg-[#DF38410D] rounded-[10.5px] p-[14px]">
           <h3 className="font-medium">AmplifyYOU 1-on-1 Coaching</h3>
           <div className="mt-4 mb-[14px]">
-            <span className="text-3xl font-bold">₦750,000</span>
+            <span className="text-3xl font-bold">₦650,000</span>
            
           </div>
           <div className='w-[250px]'>
@@ -120,8 +129,8 @@ const Pricing = () => {
 
           </div>
           
-          <a href="https://selar.com/8g3657" target="_blank" rel="noopener noreferrer">
-            <button className="w-full py-2 bg-[#E8B4B8] text-white rounded-md mt-[14px]">
+          <a href="https://selar.com/474p373174" target="_blank" rel="noopener noreferrer">
+            <button className="w-full py-2 bg-[#DF3841] text-white rounded-md mt-[14px]">
             Get Started
           </button>
           </a>
@@ -133,23 +142,39 @@ const Pricing = () => {
             </div>
           <div className="flex items-start">
             <div className="h-5 w-5 mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Includes all course modules</span>
+            <span className="text-sm mt-1">Full access to the AmplifyYOU framework: Clarify, Create, Brand, Publish, Amplify</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Private sessions with Brenda</span>
+            <span className="text-sm mt-1">6 weeks of live group coaching</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Personal strategy plan</span>
+            <span className="text-sm mt-1">6 weeks of implementation + feedback</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">Tailored project feedback</span>
+            <span className="text-sm mt-1">Tools and templates to get your book ready</span>
           </div>
           <div className="flex items-start">
             <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
-            <span className="text-sm mt-1">One-time payment</span>
+            <span className="text-sm mt-1">Accountability</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Your book completed in 12 weeks</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Dedicated support during publishing</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Personalized plan for writing schedule and classes at your convenience</span>
+          </div>
+          <div className="flex items-start">
+            <div className="h-5 w-5 rounded-full mr-3 flex-shrink-0 mt-1"><Image src={check} alt='check'/></div>
+            <span className="text-sm mt-1">Access to coach’s personalized review of your book</span>
           </div>
         </div>
       </div>

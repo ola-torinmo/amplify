@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import wyg from '../assets/wyg.png'
+import wyg from '../assets/wyg2.png'
 import check from '../assets/check.png'
 
 const WhatYouGet = () => {
@@ -60,7 +60,7 @@ const WhatYouGet = () => {
             </ul>
             <div className="flex justify-center md:justify-start">
               <a href="https://selar.com/8g3657" target="_blank" rel="noopener noreferrer">
-                <button className="mt-[20px] bg-[#E8B4B8] drop-shadow-sm text-white rounded-[10px] w-[319px] h-[51px] text-[16px]">
+                <button className="mt-[20px] bg-[#DF3841] drop-shadow-sm text-white rounded-[10px] w-[329px] h-[51px] text-[16px]">
                 Pre-order The AmplifyYOU Manual Now
                 </button>
 

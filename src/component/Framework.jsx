@@ -43,7 +43,7 @@ const Framework = () => {
       {processSteps.slice(0, 3).map((step) => (
         <div key={step.number} className="bg-white rounded-[18px] shadow-sm w-[314px] border border-gray-100 p-6">
           <div className="flex flex-col h-full">
-            <div className="w-8 h-8 rounded-full border border-[#E8B4B8] text-[#E8B4B8] flex items-center justify-center mb-4">
+            <div className="w-8 h-8 rounded-full border bg-[#DF3841] text-white flex items-center justify-center mb-4">
               <span className="text-sm font-medium">{step.number}</span>
             </div>
             <h3 className="font-medium text-lg mb-2">{step.title}</h3>
@@ -58,7 +58,7 @@ const Framework = () => {
       {processSteps.slice(3).map((step) => (
         <div key={step.number} className="bg-white rounded-[18px] w-[314px] shadow-sm border border-gray-100 p-6">
           <div className="flex flex-col h-full">
-            <div className="w-8 h-8 rounded-full border border-[#E8B4B8] text-[#E8B4B8] flex items-center justify-center mb-4">
+            <div className="w-8 h-8 rounded-full border bg-[#DF3841] text-white flex items-center justify-center mb-4">
               <span className="text-sm font-medium">{step.number}</span>
             </div>
             <h3 className="font-medium text-lg mb-2">{step.title}</h3>
