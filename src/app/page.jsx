@@ -7,6 +7,8 @@ import Pricing from '../component/Pricing';
 import GetStarted from '../component/GetStarted';
 import Testimonials from '../component/Testimonials';
 import Footer from '../component/Footer';
+import Program from '../component/Program';
+import AddOn from '../component/AddOn';
 
 
 const page = () => {
@@ -17,11 +19,13 @@ const page = () => {
   return (
     <>
     <Hero />
+    <Program />
     <Framework />
     <WhatYouGet />
     <Pricing />
     <GetStarted />
     <Testimonials />
+    <AddOn />
     <Footer />
       
       
