@@ -1,7 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import copyright from '../assets/copyright.png'; 
-import addon from '../assets/addon.png'
+import addon from '../assets/addon.png';
+import linkedin from '../assets/in.png';
+import fb from '../assets/fb.png';
+import ig from '../assets/ig.png';
+import yt from '../assets/yt.png';
 
 const Footer = () => {
   return (
@@ -57,9 +61,16 @@ const Footer = () => {
         </div>
       </div>
     </div>
+
+    <div className='flex justify-center gap-6 mt-12'>
+      <div><a href="https://www.linkedin.com/in/brendaunuavworho"><Image src={linkedin} alt='linkedin' className='w-[44px] h-[44px]'/></a></div>
+      <div><a href="https://www.Instagram.com/Brenda.Unu"><Image src={ig} alt='instagram' className='w-[44px] h-[44px]'/></a></div>
+      <div><a href="https://www.Facebook.com/brendaunuavworho"><Image src={fb} alt='facebook' className='w-[44px] h-[44px]'/></a></div>
+      <div><a href="https://www.YouTube.com/womensgrowthacademy"><Image src={yt} alt='youtube' className='w-[44px] h-[44px]'/></a></div>
+    </div>
     
     {/* Copyright */}
-    <div className="flex items-center justify-center mt-16 text-[14px] text-gray-600">
+    <div className="flex items-center justify-center mt-10 text-[14px] text-gray-600">
       <Image src={copyright} alt='copyright' width={16} height={16} className="mr-2" />
       Copyright 2025 Brenda Unu
     </div>
