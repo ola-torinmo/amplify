@@ -82,18 +82,26 @@ const AddOn = () => {
     <p className="md:text-[24px] text-[20px] font-medium mb-8 text-[#101010]">Let's rise, write, and roar — together.</p>
     
     <div className="flex flex-wrap justify-center gap-4">
-      <button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
+      <a href="https://selar.com/8g3657"><button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
         Pre-order the book
-      </button>
+      </button></a>
+      
+
+      <a href="https://selar.com/2g245247j2">
       <button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
         Online Course
       </button>
-      <button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
+      </a>
+      
+      <a href="https://selar.com/z923n9996r"><button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
         Group Coaching
-      </button>
+      </button></a>
+
+      <a href="https://selar.com/474p373174">
       <button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
         One-on-One
-      </button>
+      </button></a>
+      
     </div>
   </div>
 </div>
