@@ -2,7 +2,7 @@
 import React from 'react';
 import Hero from '../component/Hero';
 import Framework from '../component/Framework';
-import WhatYouGet from '../component/WhatYouGet';
+// import WhatYouGet from '../component/WhatYouGet';
 import Pricing from '../component/Pricing';
 import GetStarted from '../component/GetStarted';
 import Testimonials from '../component/Testimonials';
@@ -21,7 +21,7 @@ const page = () => {
     <Hero />
     <Program />
     <Framework />
-    <WhatYouGet />
+    {/* <WhatYouGet /> */}
     <Pricing />
     <GetStarted />
     <Testimonials />

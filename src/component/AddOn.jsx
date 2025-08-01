@@ -1,59 +1,102 @@
 import React from 'react'
 import Image from 'next/image'
-import addon from '../assets/addon.png'
 import check from '../assets/check.png';
 
 const AddOn = () => {
   return (
-    <div className="px-4 md:px-8 ">
-        <section className=" text-[#636363CC]  px-4 h-full ">
-          <div className="max-w-5xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap- items-center mt-6">
-              <div className="order-last md:order-first">
-                <div className="relative w-full h-auto max-w-full rounded-lg mb-4">
-                  <div className="relative md:w-[450px] aspect-square sm:aspect-auto sm:h-[300px] md:h-[700px] lg:h-[700px]">
-                    <Image 
-                      src={addon} 
-                      alt='what you get illustration' 
-                      layout="fill"
-                      objectFit="contain"
-                      className="rounded-lg"
-                    />
-                  </div>
-                </div>
-              </div>
-             <div className='md:w-[550px]'>
-                <h1 className="text-[32px] md:text-[30px] text-[#101010] sm:text-[32px] font-bold mb-4 text-center md:text-left">Add-ons (available on request)</h1>
-                <ul className="space-y-4 mb-6">
-                    <li className="flex items-start">
-                    <div className="mr-2 flex-shrink-0 mt-0.5 w-5 h-5">
-                        <Image src={check} alt='check' width={18} height={18} />
-                    </div>
-                    <span className="text-[16px] sm:text-base">End-to-End Book Publishing Package: From editing to design, printing, and listing - your book, done right.</span>
-                    </li>
-                    <li className="flex items-start">
-                    <div className="mr-2 flex-shrink-0 mt-0.5  w-5 h-5">
-                        <Image src={check} alt='check' width={18} height={18} />
-                    </div>
-                    <span className="text-[16px] sm:text-base">Media & Publicity Support: Get featured. Get seen. From interviews to launch campaigns, we help you shine.</span>
-                    </li>
-                    
-                </ul>
-                <p className='text-[16px] mb-3 text-center md:text-left'>You're Not Just Writing a Book, You're stepping into your mantle of influence. This is your moment. Your movement.AmplifyYOU group coaching starts in September. Early bird offers available now.</p>
-                <div className="flex justify-center md:justify-start">
-                  <a href="https://selar.com/8g3657" target="_blank" rel="noopener noreferrer">
-                    <button className="mt-[20px] bg-[#DF3841] drop-shadow-sm text-white rounded-[10px] w-[299px] h-[51px] text-[16px]">
-                    Pre-order the book + unlock your bonus
-                    </button>
+    <div className="py-16 md:py-6 md:px-10 px-3">
+  <div className="max-w-6xl mx-auto text-center border border-[#DADEE3] rounded-[40px] py-[60px]">
+    <h1 className="md:text-[38px] text-[30px] font-bold mb-4 text-[#101010]">Don't Wait Until It's Perfect. Move While It's Messy.</h1>
+    <p className="text-[16px] text-[#636363CC] mb-12 max-w-2xl mx-auto">
+      Whether you start with the book, join the program, or sign up for 1-on-1 coaching, this is your time to amplify your voice and legacy. The world needs your story. Your voice is valid. Your time is now.
+    </p>
     
-                  </a>
-                    
-                </div>
-                </div>
-            </div>
-          </div>
-        </section>
+    <h3 className="md:text-[30px] text-[24px] font-bold mb-8 text-[#101010]">Add-Ons (Available on Request):</h3>
+    
+    <div className="mb-12 space-y-4">
+      <div className="flex items-start justify-center max-w-2xl mx-auto">
+        <div className="mr-2 flex-shrink-0 mt-0.5 w-5 h-5">
+          <Image src={check} alt='check' width={18} height={18} />
         </div>
+        <p className="text-[16px] text-[#636363CC] text-left">
+          <strong>End-to-End Book Publishing Package:</strong> From editing to design, printing, and listing - your book, done right.
+        </p>
+      </div>
+      
+      <div className="flex items-start justify-center max-w-2xl mx-auto">
+        <div className="mr-2 flex-shrink-0 mt-0.5 w-5 h-5">
+          <Image src={check} alt='check' width={18} height={18} />
+        </div>
+        <p className="text-[16px] text-[#636363CC] text-left">
+          <strong>Media & Publicity Support:</strong> Get featured. Get seen. From interviews to launch campaigns, we help you shine.
+        </p>
+      </div>
+    </div>
+    
+    <div className="mb-12 space-y-2 text-[16px] text-[#636363CC]">
+      <p className="font-semibold">You're Not Just Writing a Book</p>
+      <p>You're stepping into your mantle of influence. This is your moment. Your movement.</p>
+      <p><span className="font-bold">AmplifyYOU</span> group coaching starts in September. Early bird offers available now.</p>
+    </div>
+    
+    <h3 className="md:text-[38px] text-[30px] font-bold mb-8 text-[#101010]">Choose your next step</h3>
+    
+    <div className="mb-8 space-y-4">
+      <div className="flex items-start justify-center max-w-2xl mx-auto">
+        <div className="mr-2 flex-shrink-0 mt-0.5 w-5 h-5">
+          <Image src={check} alt='check' width={18} height={18} />
+        </div>
+        <p className="text-[16px] text-[#636363CC] text-left">
+          Preorder the Book for N12,000 + Get the Bonus Masterclass (preorder closed August 15)
+        </p>
+      </div>
+      
+      <div className="flex items-start justify-center max-w-2xl mx-auto">
+        <div className="mr-2 flex-shrink-0 mt-0.5 w-5 h-5">
+          <Image src={check} alt='check' width={18} height={18} />
+        </div>
+        <p className="text-[16px] text-[#636363CC] text-left">
+          Sign up for the online course and self pace (start in August)
+        </p>
+      </div>
+      
+      <div className="flex items-start justify-center max-w-2xl mx-auto">
+        <div className="mr-2 flex-shrink-0 mt-0.5 w-5 h-5">
+          <Image src={check} alt='check' width={18} height={18} />
+        </div>
+        <p className="text-[16px] text-[#636363CC] text-left">
+          Sign up for the Group Coaching: early bird registration on now (starts September)
+        </p>
+      </div>
+      
+      <div className="flex items-start justify-center max-w-2xl mx-auto">
+        <div className="mr-2 flex-shrink-0 mt-0.5 w-5 h-5">
+          <Image src={check} alt='check' width={18} height={18} />
+        </div>
+        <p className="text-[16px] text-[#636363CC] text-left">
+          Start 1-on-1 Coaching Immediately
+        </p>
+      </div>
+    </div>
+    
+    <p className="md:text-[24px] text-[20px] font-medium mb-8 text-[#101010]">Let's rise, write, and roar — together.</p>
+    
+    <div className="flex flex-wrap justify-center gap-4">
+      <button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
+        Pre-order the book
+      </button>
+      <button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
+        Online Course
+      </button>
+      <button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
+        Group Coaching
+      </button>
+      <button className="bg-[#DF3841] text-white px-6 py-3 rounded-lg text-[14px] font-medium hover:bg-red-700 transition-colors">
+        One-on-One
+      </button>
+    </div>
+  </div>
+</div>
   )
 }
 

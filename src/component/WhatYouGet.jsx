@@ -22,52 +22,7 @@ const WhatYouGet = () => {
               </div>
             </div>
           </div>
-          <div>
-            <h1 className="text-[38px] text-[#101010] sm:text-[32px] font-bold mb-4 text-center md:text-left">What you’ll get</h1>
-            <p className='text-[20px] mb-6 text-center md:text-left'>Below are the few values you’d get from joining the program</p>
-            <ul className="space-y-4">
-              <li className="flex items-start">
-                <div className="mr-2 flex-shrink-0 mt-0.5 w-5 h-5">
-                  <Image src={check} alt='check' width={18} height={18} />
-                </div>
-                <span className="text-[18px] sm:text-base">6 weeks of live group classes (one session per week)</span>
-              </li>
-              <li className="flex items-start">
-                <div className="mr-2 flex-shrink-0 mt-0.5  w-5 h-5">
-                  <Image src={check} alt='check' width={18} height={18} />
-                </div>
-                <span className="text-[18px] sm:text-base">6 weeks of implementation support with direct feedback</span>
-              </li>
-              <li className="flex items-start">
-                <div className="mr-2 mt-0.5 flex-shrink-0 w-5 h-5">
-                  <Image src={check} alt='check' width={18} height={18} />
-                </div>
-                <span className="text-[18px] sm:text-base">Workbooks, templates & publishing guides</span>
-              </li>
-              <li className="flex items-start">
-                <div className="mr-2 mt-0.5 flex-shrink-0 w-5 h-5">
-                  <Image src={check} alt='check' width={18} height={18} />
-                </div>
-                <span className="text-[18px] sm:text-base">A thriving private community of women on the same journey</span>
-              </li>
-              <li className="flex items-start">
-                <div className="mr-2 mt-0.5 flex-shrink-0 w-5 h-5">
-                  <Image src={check} alt='check' width={18} height={18} />
-                </div>
-                <span className="text-[18px] sm:text-base">Lifetime access to all replays and materials</span>
-              </li>
-              
-            </ul>
-            <div className="flex justify-center md:justify-start">
-              <a href="https://selar.com/8g3657" target="_blank" rel="noopener noreferrer">
-                <button className="mt-[20px] bg-[#DF3841] drop-shadow-sm text-white rounded-[10px] w-[329px] h-[51px] text-[16px]">
-                Pre-order The AmplifyYOU Manual Now
-                </button>
-
-              </a>
-                
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>

@@ -8,12 +8,12 @@ const Hero = () => {
     <section>
         <Image
           src={logo}
-          className='w-[300px] h-[60px] mx-auto mt-[40px]'
+          className='md:w-[180px] md:h-[180px] w-[100px] h-[100px] mx-auto mt-[40px]'
           alt='logo'
         />
        
-        <div className="bg-white md:pb-12 pt-3 md:pt-1 ">
-      <div className="flex flex-col-reverse mx-auto min-h-screen ">
+        <div className="bg-white md:pb-12 pb-16 pt-3 md:pt-12 mx:px-10 px-3 my-1  ">
+      <div className="flex flex-col-reverse mx-auto min-h-screen bg-[#DF3841] text-white border rounded-[40px]  pb-[90px] pt-10">
         {/* Left side - Video section */}
         <div className="mx-auto flex items-center justify-center">
           <div className="md:mx-20 my-auto">
@@ -38,8 +38,18 @@ const Hero = () => {
             </h1>
             
             {/* Subtitle */}
-            <p className="text-[#636363CC] text-[20px] mb-6 leading-relaxed">
-              This message is for YOU, Yes, You. Do you know that You’re Not Just Meant to Work? You’re Meant to Be Seen. You’ve done the work. You’ve earned the degrees. You’ve built the experience. But still, the world doesn’t fully see you. At AmplifyYOU, we help expert women like you, break free from invisibility, silence perfectionism, and show up with boldness, clarity, and confidence because brilliance should never stay buried.
+            <p className="text-white text-[16px] mb-6  leading-9">
+              This message is for YOU<br/>
+               Yes, You.<br /> 
+               Do you know that You’re Not Just Meant to Work?<br/>
+               You’re Meant to Be Seen.<br/>
+               You’ve done the work.<br/>
+               You’ve earned the degrees.<br/>
+               You’ve built the experience.<br/>
+               But still, the world doesn’t fully see you.<br/>
+               At AmplifyYOU, we help expert women like you, break free from invisibility,<br/>
+               silence perfectionism, and show up with boldness, clarity, and confidence<br/>
+               Because brilliance should never stay buried.
 
 
             </p>
