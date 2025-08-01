@@ -26,11 +26,11 @@ const Footer = () => {
       <div className="flex-1 lg:pl-10 md:w-[353px] my-auto">
         <div className="space-y-6 mb-8">
           <blockquote className="text-[18px] text-[#101010] leading-relaxed">
-            <a href="https://tribuneonlineng.com/as-a-woman-dont-focus-on-challenges-focus-on-strengths-brenda-unu/You">"As a woman, don't focus on challenges, focus on strengths" - Brenda Unu on Nigerian Tribune</a> 
+            <a href="https://tribuneonlineng.com/as-a-woman-dont-focus-on-challenges-focus-on-strengths-brenda-unu/You"><span className='text-blue-600'>"As a woman, don't focus on challenges, focus on strengths"</span>  - Brenda Unu on Nigerian Tribune</a> 
           </blockquote>
           
           <blockquote className="text-[18px] text-[#101010] leading-relaxed">
-            <a href="https://www.thisdaylive.com/2025/07/05/brenda-unuavworho-launches-amplify-you-to-empower-women-amplify-voice/">"Brenda Unuavworho launches Amplify-You to Empower Women Amplify Voice" - Brenda Unu on This Day</a>
+            <a href="https://www.thisdaylive.com/2025/07/05/brenda-unuavworho-launches-amplify-you-to-empower-women-amplify-voice/"><span className='text-blue-600'>"Brenda Unuavworho launches Amplify-You to Empower Women Amplify Voice"</span>  - Brenda Unu on This Day</a>
             
           </blockquote>
         </div>

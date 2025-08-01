@@ -12,11 +12,11 @@ const testimonials = () => {
       text: "Working with Coach Brenda under the Executive Authors program made me realize that everyone has a message to the world. I gained clarity about the message I have been given, I understood my audience and Coach B is guiding me to write in their language. Through this program, I have learned to take small steps in the right direction.Thank you Coach B for being a blessing."
     },
     {
-      name: "Salome Danjuma (Hotel Management professional)",
+      name: "Salome Danjuma, 40+, Hotel Management professional",
       text: "This training helped me move from procrastination to progress. The structure, support, and clarity I gained made writing feel doable and even exciting. I finally believe in my voice again. Highly recommended"
     },
     {
-      name: "Fifunwa Ikobayo. 40+ ",
+      name: "Fifunwa Ikobayo, 40+, author of “Walking with God, waiting by Faith” ",
       text: "I feel really privileged to have attended the Executive Authors program. Prior to joining by Divine Providence, I was a bit scattered on my book writing journey but after joining I received clarity and direction. Thank you for the opportunity."
     }
   ];
@@ -74,7 +74,7 @@ const testimonials = () => {
                         {testimonial.text}
                         </p>
                         <div className="text-center">
-                        <h3 className="font-bold text-[#101010] text-lg">
+                        <h3 className="font-extrabold text-[#101010] text-lg">
                             {testimonial.name}
                         </h3>
                         </div>
