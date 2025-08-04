@@ -15,10 +15,10 @@ const Pricing = () => {
     </div>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-       {/* AmplifyYOU Group Coaching */}
+       {/* AmplifyYOU Online Course */}
       <div className="border border-[#E0E8E3] rounded-[22.5px] p-[14px]">
         <div className="mb-4 border border-[#E0E8E3] rounded-[10.5px] p-[14px]">
-          <h3 className="font-medium">AmplifyYOU Group Coaching</h3>
+          <h3 className="font-medium">AmplifyYOU Online Course</h3>
           <div className="mt-4 mb-[14px] ">
             <span className="text-3xl font-bold">₦100,000</span>
             
@@ -116,7 +116,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      {/* Growth Plan */}
+      {/* AmplifyYOU 1-on-1 Coaching */}
       <div className="border border-[#DF3841] rounded-[22.5px] p-[14px] pb-[30px]  bg-white">
         <div className="mb-4 border border-white bg-[#DF38410D] rounded-[10.5px] p-[14px]">
           <h3 className="font-medium">AmplifyYOU 1-on-1 Coaching</h3>
